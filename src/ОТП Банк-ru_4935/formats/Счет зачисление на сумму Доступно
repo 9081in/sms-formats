@@ -1,7 +1,7 @@
 Счет\s+\*(\d{4}).*?[Зз]ачисление\s+на\s+сумму\s+([0-9][\d\s.,]*\d)\s*([^\s\d]{1,3})\.*\s+[Дд]оступно\s+.*?(-?[\d\s.,]*\d)
 
 -----COLUMNS-----
-syncid#account;income;acc_instrument;av_balance
+syncid;income;instrument;av_balance
 
 -----EXAMPLE-----
 Счет *8881 
